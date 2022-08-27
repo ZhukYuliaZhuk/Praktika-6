@@ -8,10 +8,10 @@ int[] massiveNumbers = new int[m];
 
 void InputNumbers(int m){
 for (int i = 0; i < m; i++)
-  {
- Console.Write($"Введи {i+1} число: ");
- massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
-  }
+{
+Console.Write($"Введи {i+1} число: ");
+massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
+}
 }
 
 
